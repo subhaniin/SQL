@@ -1,0 +1,11 @@
+customer_id,first_name,last_name,date_of_birth,email
+1,Rahul,Sharma,5/12/1990,rahul.sharma@email.com
+2,Priya,Reddy,8/23/1985,priya.reddy@email.com
+3,Arjun,Patel,2/14/1993,arjun.patel@email.com
+4,Sneha,Kapoor,7/19/1988,sneha.kapoor@email.com
+5,Rohan,Das,10/30/1995,rohan.das@email.com
+6,Ananya,Mehta,3/11/1992,ananya.mehta@email.com
+7,Vikram,Nair,6/25/1987,vikram.nair@email.com
+8,Pooja,Iyer,9/17/1994,pooja.iyer@email.com
+9,Karan,Choudhary,12/5/1991,karan.choudhary@email.com
+10,Divya,Saxena,4/21/1989,divya.saxena@email.com
