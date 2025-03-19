@@ -1,0 +1,6 @@
+product_id,name,description,price,stock_quantity,category
+1,Wireless Mouse,Ergonomic wireless mouse with 2.4 GHz connection,999.0,50,Electronics
+2,Mechanical Keyboard,RGB backlit mechanical keyboard,2499.0,30,Electronics
+3,Notebook Set,Pack of 5 ruled notebooks,299.0,100,Stationery
+4,Ballpoint Pens,Pack of 10 smooth writing pens,150.0,200,Stationery
+5,Java Programming Book,Comprehensive guide to Java programming,1299.0,40,Books

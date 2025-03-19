@@ -1,0 +1,4 @@
+payment_id,order_id,customer_id,payment_date,amount,payment_method,status
+1,1,1,2025-03-10,1597.0,UPI,Success
+2,2,2,2025-03-11,2499.0,Credit Card,Success
+3,3,3,2025-03-12,2049.0,Cash on Delivery,Pending
