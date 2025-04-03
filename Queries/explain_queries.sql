@@ -1,0 +1,3 @@
+EXPLAIN SELECT * FROM customers;
+EXPLAIN SELECT * FROM orders;
+EXPLAIN SELECT * FROM order_items;
