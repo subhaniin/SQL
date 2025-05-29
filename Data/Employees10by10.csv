@@ -1,0 +1,11 @@
+﻿EmployeeID,FirstName,LastName,DepartmentID,Department,Salary,HireDate,ManagerID,JobTitle,Location
+1,Alice,Johnson,101,HR,60000,1/15/2018,3,HR Executive,Hyderabad
+2,Bob,Smith,102,IT,75000,5/20/2017,3,Software Engineer,Bangalore
+3,Charlie,Brown,101,HR,90000,9/30/2015,NULL,HR Manager,Hyderabad
+4,David,Williams,103,Finance,55000,7/11/2019,3,Accountant,Pune
+5,Eva,Davis,102,IT,65000,3/25/2020,2,QA Analyst,Bangalore
+6,Frank,Moore,104,Sales,72000,12/1/2016,7,Sales Executive,Chennai
+7,Grace,Miller,104,Sales,87000,8/18/2013,NULL,Sales Manager,Chennai
+8,Hannah,Taylor,105,Legal,80000,6/30/2021,9,Legal Consultant,Delhi
+9,Ian,Anderson,105,Legal,95000,11/5/2012,NULL,Legal Head,Delhi
+10,Julia,Thomas,102,IT,68000,2/14/2022,2,DevOps Engineer,Bangalore
