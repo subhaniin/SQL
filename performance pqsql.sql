@@ -23,3 +23,6 @@ select * from performance;
 INSERT INTO performance (emp_id, emp_name, old_salary, grade, promotion, hike, new_salary, critical_resource)
 SELECT emp_id, emp_name, salary, null, false, NULL, NULL, false
 FROM employees;
+
+UPDATE performance
+SET joining_date = '2025-01-01';
