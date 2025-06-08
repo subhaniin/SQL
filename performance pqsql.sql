@@ -24,5 +24,21 @@ INSERT INTO performance (emp_id, emp_name, old_salary, grade, promotion, hike, n
 SELECT emp_id, emp_name, salary, null, false, NULL, NULL, false
 FROM employees;
 
+-- Create function
+CREATE OR REPLACE FUNCTION update_modified_column()
+RETURNS TRIGGER AS $$
+BEGIN
+   NEW.updated_at = CURRENT_TIMESTAMP;
+   RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+--Create trigger for the updates
+CREATE TRIGGER set_updated_at
+BEFORE UPDATE ON performance
+FOR EACH ROW
+EXECUTE FUNCTION update_modified_column();
+
+
 UPDATE performance
 SET joining_date = '2025-01-01';
