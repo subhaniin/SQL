@@ -2,7 +2,9 @@ create table DemoTable
 (ID int primary key,Name varchar(50),dateofbirth DATE,email varchar(50),addrress varchar(100));
 
 alter table DemoTable
-rename column addrress to address;
+#rename column addrress to address;
+CHANGE COLUMN address Address VARCHAR(255);
+
 
 insert into DemoTable(ID,Name,dateofbirth,email,address)
 values
