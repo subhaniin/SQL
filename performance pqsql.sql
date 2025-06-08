@@ -42,3 +42,6 @@ EXECUTE FUNCTION update_modified_column();
 
 UPDATE performance
 SET joining_date = '2025-01-01';
+
+update performance
+set new_salary = old_salary+old_salary*hike/100;
