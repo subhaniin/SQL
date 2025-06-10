@@ -1,3 +1,5 @@
+use bfsi;
+
 create table managers
 (Manager_ID int primary key, manager_name varchar(50));
 insert into managers
