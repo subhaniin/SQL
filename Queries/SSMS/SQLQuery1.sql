@@ -17,3 +17,5 @@ set age = 22 where age is null;
 alter table demo_table
 add first_name varchar(20), last_name varchar(20);
 
+alter table demo_table
+drop column last_name;
