@@ -27,3 +27,5 @@ update demo_table
 set address = '2-95, 1st street, rayudupalem, kakinada rural, kakinada district, 533006, Andhra Pradesh, India';
 
 EXEC sp_rename 'demo_table', 'KYC';
+
+select top 2 * from KYC;
