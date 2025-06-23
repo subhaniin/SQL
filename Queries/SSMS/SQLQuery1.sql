@@ -19,3 +19,11 @@ add first_name varchar(20), last_name varchar(20);
 
 alter table demo_table
 drop column last_name;
+
+alter table demo_table
+add address varchar(100);
+
+update demo_table
+set address = '2-95, 1st street, rayudupalem, kakinada rural, kakinada district, 533006, Andhra Pradesh, India';
+
+EXEC sp_rename 'demo_table', 'KYC';
