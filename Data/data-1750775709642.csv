@@ -1,0 +1,13 @@
+"json_agg"
+"[{""emp_id"":8,""emp_name"":""Afifa Tasneem"",""salary"":50000,""age"":26,""gender"":""F"",""role"":""Associate"",""mngr_id"":2,""department"":""IT""}, 
+ {""emp_id"":6,""emp_name"":""Purushotham Kumar"",""salary"":300000,""age"":25,""gender"":""M"",""role"":""Associate"",""mngr_id"":1,""department"":""IT""}, 
+ {""emp_id"":1,""emp_name"":""Ridwarn Mohammad"",""salary"":100000,""age"":40,""gender"":""M"",""role"":""Manager"",""mngr_id"":null,""department"":""HR""}, 
+ {""emp_id"":2,""emp_name"":""Swetha Mentu"",""salary"":200000,""age"":35,""gender"":""F"",""role"":""Manager"",""mngr_id"":null,""department"":""HR""}, 
+ {""emp_id"":11,""emp_name"":""Subhani shaik"",""salary"":20000,""age"":20,""gender"":""M"",""role"":""Associate"",""mngr_id"":1,""department"":""BPS""}, 
+ {""emp_id"":12,""emp_name"":""Ansar shaik"",""salary"":40000,""age"":20,""gender"":""M"",""role"":""Associate"",""mngr_id"":1,""department"":""BPS""}, 
+ {""emp_id"":10,""emp_name"":""Narasimah"",""salary"":35000,""age"":26,""gender"":""M"",""role"":""Associate"",""mngr_id"":1,""department"":""BPS""}, 
+ {""emp_id"":5,""emp_name"":""Deepak Seru"",""salary"":40000,""age"":30,""gender"":""M"",""role"":""Associate"",""mngr_id"":1,""department"":""BPS""}, 
+ {""emp_id"":4,""emp_name"":""Sujata Rana"",""salary"":30000,""age"":20,""gender"":""F"",""role"":""Associate"",""mngr_id"":2,""department"":""BPS""}, 
+ {""emp_id"":3,""emp_name"":""Ali mohammad"",""salary"":20000,""age"":20,""gender"":""M"",""role"":""Associate"",""mngr_id"":1,""department"":""BPS""}, 
+ {""emp_id"":9,""emp_name"":""Manoj Doddapaneni"",""salary"":40000,""age"":28,""gender"":""M"",""role"":""Associate"",""mngr_id"":1,""department"":""BPS""}, 
+ {""emp_id"":7,""emp_name"":""Anjana Bhagnagre"",""salary"":30000,""age"":28,""gender"":""F"",""role"":""Associate"",""mngr_id"":2,""department"":""BPS""}]"
