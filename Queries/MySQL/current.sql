@@ -1,1 +1,1 @@
-select current_date(), current_time(), current_user(), current_timestamp()
+select current_date(), current_time(), current_user(), current_timestamp();
