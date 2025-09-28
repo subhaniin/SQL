@@ -16,4 +16,18 @@ update employees
 set position = 'Team Lead' where first_name = 'subhani';
 
 alter table employees
-rename position to role_;
+rename new_salary to  salary_2025;
+
+alter table employees
+alter column hike_2025 type numeric;
+
+update employees
+set hike_2025 = 1.1;
+
+alter table employees
+add column new_salary INT;
+
+update employees
+set new_salary = salary*hike_2025;
+
+select hike_2025, salary_2024, salary_2025 from employees;
