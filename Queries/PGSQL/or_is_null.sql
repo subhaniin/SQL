@@ -10,7 +10,10 @@ or salary is null
 or hire_date is null
 or status is null;
 
-select * from employees where 
+select * from employees
 
 update employees
 set position = 'Team Lead' where first_name = 'subhani';
+
+alter table employees
+rename position to role_;
