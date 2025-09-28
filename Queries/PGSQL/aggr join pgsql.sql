@@ -53,3 +53,4 @@ FROM
     EmployeePerformance
 ORDER BY 
     salary_rank, emp_id;
+-- Rank employees by May salary (highest salary = rank 1)
