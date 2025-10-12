@@ -1,0 +1,1 @@
+select first_name, dept_id from employees e join departments d on e.department=d.dept_name
