@@ -6,3 +6,8 @@ SELECT
 FROM
   employees e
   JOIN employee_pd ep ON e.emp_id = ep.emp_id;
+
+
+SELECT definition
+FROM pg_views
+WHERE viewname = 'employee_name';

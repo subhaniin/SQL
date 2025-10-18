@@ -7,3 +7,5 @@ select * from employee_pd;
 select * from managers;
 
 select * from salaries;
+
+select * from employee_name;--view
