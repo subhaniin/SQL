@@ -14,4 +14,5 @@ insert into departments(dept_name)
 select  distinct department from employees order by department;
 
 -------------------------------------------------------------------------
-
+create table team_members(emp_id int,emp_name varchar(25));
+create table team_leaders(emp_id int,emp_name varchar(25));

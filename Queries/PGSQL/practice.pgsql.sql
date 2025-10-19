@@ -2,7 +2,7 @@ select * from demo_view;
 
 select avg(salary) from employees;
 
-select * from employees;
+select * from employees order by emp_id;
 
 select emp_id, salary from employees where salary>(select avg(salary) from employees);
 
@@ -40,3 +40,23 @@ select avg(salary) from employees where dept_id =2;
 
 update employees
 set salary = salary +20000 where dept_id = 1;
+
+
+select e.dept_id,d.dept_name, sum(e.salary) from employees e join departments d on e.dept_id = d.dept_id
+group by e.dept_id, d.dept_name order by dept_id;
+
+select emp_id, emp_name, salary,
+rank() over (order by salary desc) as salary_rank
+from employees;
+
+select * from employees where role_ = 'Manager';
+
+select * from managers;
+
+update employees
+set role_  = 'Team Lead' where emp_id between 3 and 10;
+
+insert into team_leaders(emp_id,emp_name)
+select emp_id,emp_name from employees where role_ = 'Team Lead';
+
+select * from team_leaders;
