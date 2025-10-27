@@ -1,4 +1,4 @@
-select * from demo_view;
+select * from employee_name order by emp_name;
 
 select * from employees order by emp_id;
 
@@ -66,3 +66,15 @@ insert into team_leaders(emp_id,emp_name)
 select emp_id,emp_name from employees where role_ = 'Team Lead';
 
 select * from team_leaders;
+
+create or replace view Team_lead_view as select * from employees where role_ = 'Team Lead';
+
+select * from team_lead_view
+
+create or replace view managers_view as select * from employees where role_ = 'Manager';
+
+select * from managers_view;
+
+alter view employee_name rename to employee_name_view;
+
+alter view high_earners rename to high_earners_view;
