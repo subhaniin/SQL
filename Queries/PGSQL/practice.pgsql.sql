@@ -1,15 +1,21 @@
 select * from demo_view;
 
-select avg(salary) from employees;
-
 select * from employees order by emp_id;
 
+select avg(salary) from employees;
+
 select emp_id, salary from employees where salary>(select avg(salary) from employees);
+
+select dept_id,max(salary) from employees group by dept_id;
+
+select emp_name,dept_id,salary from employees e
+where salary=(select max(salary) from employees where e.dept_id=dept_id);
 
 SELECT role, AVG(salary) AS avg_salary
 FROM employees
 GROUP BY role
 HAVING AVG(salary) > 50000;
+
 
 select * from performance_fy_2025
 
