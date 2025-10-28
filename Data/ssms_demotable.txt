@@ -1,0 +1,6 @@
+﻿abcd	22	NULL	NULL	1
+Ansar Shaik	22	NULL	2-95, 1st street, rayudupalem, kakinada rural, kakinada district, 533006, Andhra Pradesh, India	2
+Alikhan Mohammad	22	NULL	2-95, 1st street, rayudupalem, kakinada rural, kakinada district, 533006, Andhra Pradesh, India	3
+Ayesha Mohammad	22	NULL	2-95, 1st street, rayudupalem, kakinada rural, kakinada district, 533006, Andhra Pradesh, India	4
+aeiou	25	NULL	NULL	5
+aeiou	25	NULL	NULL	6
