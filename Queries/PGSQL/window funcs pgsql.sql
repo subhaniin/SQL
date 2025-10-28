@@ -2,6 +2,8 @@ select * from employees;
 
 select emp_name,salary, rank()over(order by salary desc)as salary_rank from employees;
 
+select emp_name,salary,dept_id, rank()over(partition by dept_id order by salary desc)as salary_rank from employees;
+
 select emp_name,salary, row_number()over(order by salary desc)as salary_rank from employees;
 
 SELECT emp_name, salary,
