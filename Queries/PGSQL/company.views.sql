@@ -26,3 +26,15 @@ JOIN (
 ) d --as d also work
 ON e.dept_id = d.dept_id
 WHERE e.salary > d.avg_salary order by avg_salary;
+
+create or replace view Team_lead_view as select * from employees where role_ = 'Team Lead';
+
+select * from team_lead_view
+
+create or replace view managers_view as select * from employees where role_ = 'Manager';
+
+select * from managers_view;
+
+alter view employee_name rename to employee_name_view;
+
+alter view high_earners rename to high_earners_view;
