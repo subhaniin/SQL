@@ -1,0 +1,99 @@
+[{
+  "_id": 1,
+  "total_salary": 3413270,
+  "avg_salary": 94813.05555555556,
+  "max_salary": 151670,
+  "min_salary": 46530,
+  "emp_count": 36,
+  "salary_range": 105140
+},
+{
+  "_id": 2,
+  "total_salary": 2227229,
+  "avg_salary": 89089.16,
+  "max_salary": 139460,
+  "min_salary": 46420,
+  "emp_count": 25,
+  "salary_range": 93040
+},
+{
+  "_id": 3,
+  "total_salary": 1533656,
+  "avg_salary": 80718.73684210527,
+  "max_salary": 123456,
+  "min_salary": 44770,
+  "emp_count": 19,
+  "salary_range": 78686
+},
+{
+  "_id": 4,
+  "total_salary": 1944470,
+  "avg_salary": 97223.5,
+  "max_salary": 131010,
+  "min_salary": 44880,
+  "emp_count": 20,
+  "salary_range": 86130
+},
+{
+  "_id": 5,
+  "total_salary": 735000,
+  "avg_salary": 91875,
+  "max_salary": 127130,
+  "min_salary": 59590,
+  "emp_count": 8,
+  "salary_range": 67540
+},
+{
+  "_id": 6,
+  "total_salary": 1917300,
+  "avg_salary": 87150,
+  "max_salary": 127270,
+  "min_salary": 44110,
+  "emp_count": 22,
+  "salary_range": 83160
+},
+{
+  "_id": 7,
+  "total_salary": 927630,
+  "avg_salary": 84330,
+  "max_salary": 126940,
+  "min_salary": 49720,
+  "emp_count": 11,
+  "salary_range": 77220
+},
+{
+  "_id": 8,
+  "total_salary": 1390290,
+  "avg_salary": 86893.125,
+  "max_salary": 131120,
+  "min_salary": 45870,
+  "emp_count": 16,
+  "salary_range": 85250
+},
+{
+  "_id": 9,
+  "total_salary": 2701520,
+  "avg_salary": 103904.61538461539,
+  "max_salary": 143970,
+  "min_salary": 71700,
+  "emp_count": 26,
+  "salary_range": 72270
+},
+{
+  "_id": 10,
+  "total_salary": 2760450,
+  "avg_salary": 138022.5,
+  "max_salary": 1000000,
+  "min_salary": 61820,
+  "emp_count": 20,
+  "salary_range": 938180
+},
+{
+  "_id": 11,
+  "total_salary": 975590,
+  "avg_salary": 88690,
+  "max_salary": 130790,
+  "min_salary": 45650,
+  "emp_count": 11,
+  "salary_range": 85140
+}]
