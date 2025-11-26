@@ -51,3 +51,16 @@ DROP TRIGGER IF EXISTS employees_audit_trig ON public.employees;
 CREATE TRIGGER employees_audit_trig
 AFTER INSERT OR UPDATE OR DELETE ON public.employees
 FOR EACH ROW EXECUTE FUNCTION audit.fn_audit_employees();
+
+Select * from audit.audit_logs order by changed_at desc limit 5;
+
+select * from employees order by emp_id;
+
+SELECT setval(
+    pg_get_serial_sequence('employees', 'emp_id'),
+    (SELECT MAX(emp_id) FROM employees)
+);
+
+
+insert into employees(emp_name)
+values('test');
