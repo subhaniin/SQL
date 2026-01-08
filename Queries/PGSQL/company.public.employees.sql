@@ -7,3 +7,6 @@ truncate public.employees;
 
 alter table employees
 drop column record_date;
+
+SELECT * FROM public.employees
+ORDER BY emp_id DESC LIMIT 100;
