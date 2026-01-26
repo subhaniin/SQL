@@ -38,6 +38,15 @@ from(
 	as salary_rank,e.hire_date,avg(e.salary) over (partition by e.dept_id) as dept_avg from employees e
 	join departments d
 	on e.dept_id = d.dept_id) 
-where salary_rank <3 and hire_date>'2021-01-01' and dept_avg >6000;
+where salary_rank <3 and hire_date>'2021-01-01' and dept_avg >6000
+union all
+select 
+	NULL AS dept_id,
+    'TOTAL' AS dept_name,
+    SUM(salary) AS salary,
+    NULL AS salary_rank,
+    NULL AS hire_date,
+    NULL AS dept_avg
+from employees;
 --------------------------------------------------------
 select * from employees where hire_date > '2010-01-01'
